@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: gray;
+}
+
+.banner {
+    background-image: url(./assets/images/banner.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    object-fit: fill;
+    background-size: cover;
+}
+
+.logo{
+   display: flex;
+   justify-content: center;
+   background-color: transparent;
+}
+
+h1 {
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    background: linear-gradient(to bottom, #33A8DB, #1472B7);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.banner-content p {
+    width: 510px;
+    height: 10px;
+    font-family: 'Raleway';
+    color: #FFF;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23.48px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 10px auto 0;
+}
+
+#quero {
+    width: 326px;
+    height: 57px;
+    box-sizing: border-box;
+    margin: auto;
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: linear-gradient(to bottom, #33A8DB, #1472b7);
+  -webkit-background-clip: text;
+  color: transparent;
+    border: 3px solid transparent;
+    border-image: linear-gradient(to bottom, #33A8DB, #1472b7);
+    border-image-slice: 1;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto;
+}
+
+h2 {
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 4px;
+    text-align: center;
+    background: linear-gradient(to bottom, #33A8DB, #1472B7);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+  margin-top: 15px;
+}
+
+#course-content p {
+    font-family: 'Raleway';
+    color: #FFF;
+    width: 792px;
+    height: 38px;
+    font-size: 16px;
+    line-height: 18.78px;
+    font-weight: 400;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.module {
+    width: 535px;
+    height: 51px;
+    border-radius: 57px;
+    border-top: solid 2px ;
+    border-bottom: solid 2px ;
+    border-left: solid 1px ;
+    border-right: solid 1px ;
+    background-color: #252525;
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 40%);
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFF;
+    border-color: #1472b7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+}
+span {
+    white-space: pre;
+    color: #33A8DB;
+}
+#transform-world {
+   width: 5290px;
+   height: 363px;
+   top: 1138px;
+   border: 1px, 1px, 1px, 0px;
+   background-image: url(./assets/images/woman-code.png);
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+#transform-world p {
+    width: 244px;
+    height: 141px;
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 46.96px;
+    color: #FFF;
+    text-shadow: 3px 2px 0px #33A8DB;
+    text-transform: lowercase;
+    text-align: left;
+    margin-left: 198px;
+    margin-top: ;
+}
+
+
+
+#feedbeck {
+    width: 659px;
+    height: 429px;
+    margin: 0 auto;
+    border: 0px auto;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#professional-challenges p{
+    width: 792px;
+    height: 76px;
+    font-family: 'Raleway';
+    font-size: 16px;
+    line-height: 18.76px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFF;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.dio-logo {
+    width: 310px;
+    height: 44px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 25px;
+}
+
+#roda {
+    width: 259px;
+    height: 19px;
+    font-family: 'Raleway';
+    color: 	#fff;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#link {
+    text-decoration: none;
+    white-space: pre;
+}
